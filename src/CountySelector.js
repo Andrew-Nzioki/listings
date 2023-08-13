@@ -43,8 +43,9 @@ const CountySelector = () => {
   };
 
   return (
-    <div className="p-6">
-      <div className="flex ">
+    <div className="p-2">
+      <div className="flex gap-2 text-slate-500">
+        <span className="text-blue-400 font-bold">Filter</span>
         <div className="">
           <label htmlFor="countySelect" className="text-sm font-semibold mb-1">
             County:
@@ -121,9 +122,7 @@ const CountySelector = () => {
             {/* Add more options as needed */}
           </select>
         </div>
-      </div>
 
-      <div className="flex  mt-4 m-2">
         <div className="">
           <label htmlFor="bedrooms" className=" text-sm font-semibold mb-1">
             Bedrooms:
